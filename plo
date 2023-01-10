@@ -1,0 +1,8 @@
+
+def on_all(f, l):
+    return [f(x) for x in l]
+
+def perfect_square(n):
+    return n*n
+
+print(on_all(perfect_square, range(1, 21)))
